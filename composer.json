@@ -1,0 +1,21 @@
+{
+    "name": "lhpalacio/event-dispatcher",
+    "description": "Event dispatcher component for Zend Expressive",
+    "authors": [
+        {
+            "name": "Luiz Henrique Gomes Palacio",
+            "email": "lhpalacio@outlook.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.1",
+        "psr/log": "^1.1",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lhpalacio\\EventDispatcher\\": "src"
+        }
+    }
+}
